@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Addin>
+    <Url>MonoDevelop.Flash_1.0.mpack</Url>
+    <Addin>
+      <Id>Flash</Id>
+      <Namespace>MonoDevelop</Namespace>
+      <Name>Flash Language Binding</Name>
+      <Version>1.0</Version>
+      <BaseVersion />
+      <Author>戴君洁</Author>
+      <Copyright>GPL</Copyright>
+      <Url>http://www.shumtn.com</Url>
+      <Description>Flash Language Binding</Description>
+      <Category>Language bindings</Category>
+	<Dependencies>
+		<Addin id="Ide" version="4.0"/>
+		<Addin id="Core" version="4.0"/>
+		<Addin id="SourceEditor2" version="4.0"/>
+		<Addin id="DesignerSupport" version="4.0"/>
+		<Addin id="Refactoring" version="4.0"/>
+	</Dependencies>
+	<Properties>
+		<Property name="DownloadSize">200000</Property>
+	</Properties>
+      <OptionalDependencies />
+    </Addin>
+  </Addin>
+</Repository>

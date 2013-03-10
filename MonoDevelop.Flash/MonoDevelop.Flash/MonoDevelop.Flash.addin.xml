@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--haha "Source Editor Extensions" -->
+<Addin namespace   = "MonoDevelop.Flash"
+       id          = "DateInserter"
+       name        = "Flash Language Binding"
+       author      = "戴君洁"
+       copyright   = "蜀山技术研究团队所有"
+       url         = "http://www.shumtn.com"
+       description = "插件说明."
+       category    = "Language bindings"
+       version     = "1.0">
+    <Runtime>
+		<Import assembly="MonoDevelop.Flash.dll"/>
+	</Runtime>
+	
+	<Dependencies>
+		<Addin id="::MonoDevelop.Ide" version="4.0"/>
+	</Dependencies>
+	
+	<Extension path = "/MonoDevelop/Ide/Commands/Edit">
+        <Command id = "MonoDevelop.Flash.DateInserter.DateInserterCommands.InsertDate"
+                 _label = "Insert Date"
+                 _description = "Insert the current date"
+                 defaultHandler = "MonoDevelop.Flash.DateInserter.InsertDateHandler" />
+    </Extension>
+
+    <Extension path = "/MonoDevelop/Ide/MainMenu/Edit">
+        <CommandItem id="MonoDevelop.Flash.DateInserter.DateInserterCommands.InsertDate" />
+    </Extension>
+</Addin>
