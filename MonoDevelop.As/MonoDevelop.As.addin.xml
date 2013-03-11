@@ -1,0 +1,10 @@
+<Addin id="As"
+	namespace="MonoDevelop"
+	name="As Language Binding"
+	author="戴君洁"
+	url="http://www.shumtn.com"
+	copyright=""
+	description="As Language Binding"
+	category="Language bindings"
+	version="0.0.1">
+
